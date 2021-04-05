@@ -9,6 +9,3 @@
 
 ## LeetCode
 `src/leetcode`
-
-## Learned
-Math.pow() returns a double!
