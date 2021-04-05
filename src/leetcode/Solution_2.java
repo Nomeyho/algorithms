@@ -1,6 +1,6 @@
+package leetcode;
 
-
-class Solution2 {
+class Solution_2 {
 
     static ListNode L1;
     static ListNode L2;
@@ -18,13 +18,22 @@ class Solution2 {
     public static class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 
     public static void main(final String[] args) {
-        final ListNode result = new Solution2().addTwoNumbers(L1, L2);
+        final ListNode result = new Solution_2().addTwoNumbers(L1, L2);
         System.out.println(result);
     }
 
