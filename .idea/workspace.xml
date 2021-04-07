@@ -75,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="easy_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.easy_1" />
+      <option name="MAIN_CLASS_NAME" value="algoexpert.easy.easy_1" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.*" />
+          <option name="PATTERN" value="algoexpert.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="easy_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoexpert.easy_10" />
+      <option name="MAIN_CLASS_NAME" value="algoexpert.easy.easy_10" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoexpert.*" />
+          <option name="PATTERN" value="algoexpert.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,4 +1,4 @@
-package algoexpert;
+package algoexpert.easy;
 
 public class easy_16 {
 
