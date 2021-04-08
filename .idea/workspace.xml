@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818ecfb4-32eb-4cdd-9ed9-0c3ba47342ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/easy/easy_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/easy/easy_23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/easy/easy_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoexpert/easy/easy_25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="2008f367-5251-4f9e-a1ce-147b22d74a2a" name="todo" comment="">
@@ -151,7 +151,7 @@
       <workItem from="1617727522890" duration="610000" />
       <workItem from="1617773914789" duration="247000" />
       <workItem from="1617812742257" duration="2367000" />
-      <workItem from="1617899851843" duration="2483000" />
+      <workItem from="1617899851843" duration="3813000" />
     </task>
     <task id="LOCAL-00001" summary="Setup">
       <created>1603611906981</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617899955064</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New solutions">
+      <created>1617902983762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617902983762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,10 +259,10 @@
     </state>
     <state x="483" y="141" key="#xdebugger.evaluate/0.23.1440.808@0.23.1440.808" timestamp="1609710056816" />
     <state x="97" y="149" key="#xdebugger.evaluate/0.23.1440.809@0.23.1440.809" timestamp="1614287908388" />
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1617899954781">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1617902983507">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1617899954781" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1617902983507" />
     <state width="1398" height="273" key="GridCell.Tab.0.bottom" timestamp="1617901756050">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -316,10 +323,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="558" y="303" key="VCS.EditChangelistDialog/0.23.1440.808@0.23.1440.808" timestamp="1617614962984" />
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1617899956099">
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1617902985770">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1617899956099" />
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1617902985770" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
