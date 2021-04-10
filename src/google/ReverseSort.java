@@ -20,7 +20,6 @@ public class ReverseSort {
     }
 
     private static LinkedList<Integer>[] parseTestCases() {
-        System.out.println("ICI");
         // FIXME: sanity checks
         final Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         final int numberTestCases = Integer.parseInt(in.nextLine());
@@ -33,28 +32,11 @@ public class ReverseSort {
                     .map(Integer::valueOf)
                     .collect(Collectors.toCollection(LinkedList::new));
         }
-        
+
         in.close();
         return testCases;
     }
-    
-    /*
-    private static LinkedList<Integer>[] parseTestCases() throws IOException {
-        final Path path = Paths.get("/Users/vanberst/Documents/Workspace/Leetcode/src/data/p1.txt");
-        final List<String> lines = Files.readAllLines(path);
-        final int numberTestCases = Integer.parseInt(console.readLine());
-        final LinkedList<Integer>[] testCases = new LinkedList[numberTestCases];
-
-        for (int i = 0; i < numberTestCases; ++i) {
-            final String line = lines.get(i * 2 + 2);
-            testCases[i] = Arrays.stream(line.split(" "))
-                    .map(Integer::valueOf)
-                    .collect(Collectors.toCollection(LinkedList::new));
-        }
-        return testCases;
-    }
-     */
-
+   
     private static int computeReverseCost(final LinkedList<Integer> testCase) {
         int cost = 0;
         int len = testCase.size();

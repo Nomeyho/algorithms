@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818ecfb4-32eb-4cdd-9ed9-0c3ba47342ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoexpert/medium/medium_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/google/ReverseSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/google/ReverseSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/google/data/p1.txt" beforeDir="false" />
     </list>
     <list id="2008f367-5251-4f9e-a1ce-147b22d74a2a" name="todo" comment="">
       <change afterPath="$PROJECT_DIR$/src/leetcode/Solution_1037.java" afterDir="false" />
@@ -161,7 +161,7 @@
       <workItem from="1617773914789" duration="247000" />
       <workItem from="1617812742257" duration="2367000" />
       <workItem from="1617899851843" duration="4325000" />
-      <workItem from="1617978765897" duration="6917000" />
+      <workItem from="1617978765897" duration="7463000" />
     </task>
     <task id="LOCAL-00001" summary="Setup">
       <created>1603611906981</created>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617989101397</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New solutions">
+      <created>1618001855200</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618001855200</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,10 +297,10 @@
     </state>
     <state x="483" y="141" key="#xdebugger.evaluate/0.23.1440.808@0.23.1440.808" timestamp="1609710056816" />
     <state x="97" y="149" key="#xdebugger.evaluate/0.23.1440.809@0.23.1440.809" timestamp="1614287908388" />
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1617989101152">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1618001854947">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1617989101152" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1618001854947" />
     <state width="1398" height="273" key="GridCell.Tab.0.bottom" timestamp="1617998629463">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
@@ -354,10 +361,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="558" y="303" key="VCS.EditChangelistDialog/0.23.1440.808@0.23.1440.808" timestamp="1617614962984" />
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1618001844415">
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1618001856496">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1618001844415" />
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1618001856496" />
     <state x="421" y="182" width="598" height="490" key="find.popup" timestamp="1617996357398">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
