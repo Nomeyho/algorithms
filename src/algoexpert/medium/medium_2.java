@@ -3,6 +3,8 @@ package algoexpert.medium;
 import java.util.Arrays;
 
 public class medium_2 {
+    
+    // Simplier solution on AlgoExpert, although same asymptotic complexity
     public static int[] smallestDifference(int[] arrayOne, int[] arrayTwo) {
         Arrays.sort(arrayOne);
         Arrays.sort(arrayTwo);
