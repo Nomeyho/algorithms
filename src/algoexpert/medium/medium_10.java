@@ -64,6 +64,7 @@ public class medium_10 {
             return remove(null, value);
         }
 
+        // TODO
         public BST remove(BST parent, int value) {
             if (value == this.value) {
                 if (this.left != null && this.right != null) {
