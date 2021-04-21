@@ -15,12 +15,48 @@ public class medium_15 {
         }
     }
 
+    static class Index {
+        int value; // shared across recursive calls
+
+        Index(int value) {
+            this.value = value;
+        }
+
+        void increment() {
+            this.value++;
+        }
+    }
+
+    public BST reconstructBst(ArrayList<Integer> array) {
+        return reconstructBst(array, new Index(0), Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+    private BST reconstructBst(ArrayList<Integer> array, Index index, int min, int max) {
+        if (index.value >= array.size()) {
+            return null;
+        }
+
+        int value = array.get(index.value);
+        if (value < min || value >= max) {
+            return null;
+        }
+
+        BST node = new BST(value);
+        index.increment();
+        node.left = reconstructBst(array, index, min, value);
+        node.right = reconstructBst(array, index, value, max);
+        return node;
+    }
+
+    /*
+    // O(n^2) time
     public BST reconstructBst(ArrayList<Integer> preOrderTraversalValues) {
         BST root = new BST(preOrderTraversalValues.get(0));
         reconstructBst(root, preOrderTraversalValues, 1, preOrderTraversalValues.size() - 1);
         return root;
     }
 
+    // Note: more elegant solution by returning the BST node
     private void reconstructBst(BST node,
                                 ArrayList<Integer> array,
                                 int start,
@@ -54,4 +90,5 @@ public class medium_15 {
             }
         }
     }
+     */
 }
