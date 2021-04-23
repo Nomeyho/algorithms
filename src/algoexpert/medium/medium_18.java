@@ -19,6 +19,7 @@ public class medium_18 {
             return leftMost(node.right);
         }
 
+        /* Note: this condition is a particular case of the next one and could be avoided */
         if (node.parent != null && node.parent.left == node) {
             // it has no right subtree, so the successor is the parent
             return node.parent;
