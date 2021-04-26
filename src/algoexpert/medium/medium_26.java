@@ -4,10 +4,10 @@ public class medium_26 {
     private static final int VISITED = Integer.MAX_VALUE;
 
     public static void main(String[] args) {
-        boolean result = hasSingleCycle(new int[] {1, 1, 1, 1, 2});
+        boolean result = hasSingleCycle(new int[]{1, 1, 1, 1, 2});
         System.out.println(result);
     }
-    
+
     public static boolean hasSingleCycle(int[] array) {
         int jumpCount = 0;
         int currentIndex = 0;
@@ -26,10 +26,10 @@ public class medium_26 {
 
         return currentIndex == 0;
     }
-    
+
     private static int jump(int currentIndex, int jump, int len) {
         int nextIndex = (currentIndex + jump) % len;
-        
+
         if (nextIndex < 0) {
             return nextIndex + len;
         } else {
