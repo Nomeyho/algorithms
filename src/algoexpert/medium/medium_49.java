@@ -1,7 +1,6 @@
 package algoexpert.medium;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class medium_49 {
 
