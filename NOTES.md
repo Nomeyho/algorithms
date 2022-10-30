@@ -7,10 +7,9 @@
   
   - Abstraction: develop classes in terms of their own functionality, instead of their implementation details.
   - Encapsulation: objects hide their internal characteristics and behavior.
-    - Hide internal state
-    - Usability and maintenance of code
-    - Modularity
-  - Polymorphism
+  - Polymorphism: present the same interface for differing underlying data types.
+    - Compile-time polymorphism (Static binding) – Method overloading
+    - Runtime polymorphism (Dynamic binding) – Method overriding
   - Inheritance
   - Predefined & user-defined types as objects 
   - Message-based
@@ -30,3 +29,8 @@
   ```
 </details>
 
+<details>
+  <summary>Primitive Types</summary>
+  
+  Boolean, byte, char, int, float, double, long, short
+</details>
