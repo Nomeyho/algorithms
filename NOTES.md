@@ -60,6 +60,14 @@
   <summary>Static</summary>
   
   - Static variable/method can be accessed without instantiation.
-  - Static class: TODO
+  - Static class
   - Static block: code executed when loading the class in memory
+</details>
+
+<details>
+  <summary>Nested class</summary>
+  
+  - Not-static nested class has access to instance variable/methods of the outer class.
+  - Not-static nested class cannot be instantiated without the outer class.
+  - Static nested class have only access to static member of the outer class.
 </details>
