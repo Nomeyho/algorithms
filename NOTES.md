@@ -10,9 +10,9 @@
   - Polymorphism: present the same interface for differing underlying data types.
     - Compile-time polymorphism (Static binding) – Method overloading
     - Runtime polymorphism (Dynamic binding) – Method overriding
-  - Inheritance
-  - Predefined & user-defined types as objects 
-  - Message-based
+  - Inheritance: acquire fields and methods of the base class.
+  - Predefined & user-defined types as objects.
+  - Message-based.
   
   Java not 100% OO becquse of primitives types.
 </details>
@@ -33,4 +33,33 @@
   <summary>Primitive Types</summary>
   
   Boolean, byte, char, int, float, double, long, short
+</details>
+
+<details>
+  <summary>Association vs Aggregation vs Composition</summary>
+  
+  - Association: link between two classes communicating with each other.
+  - Aggregation and Composition are special cases of association.
+  - Composition: the child cannot exist independent of the parent.
+</details>
+
+<details>
+  <summary>JVM</summary>
+  
+  Process vthat can execute Java bytecode.
+</details>
+
+<details>
+  <summary>JRE vs. JDK</summary>
+  
+  - JRE is a JVM implementation
+  - JDK includes the JRE and development tools.
+</details>
+
+<details>
+  <summary>Static</summary>
+  
+  - Static variable/method can be accessed without instantiation.
+  - Static class: TODO
+  - Static block: code executed when loading the class in memory
 </details>
