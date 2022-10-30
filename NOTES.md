@@ -71,3 +71,36 @@
   - Not-static nested class cannot be instantiated without the outer class.
   - Static nested class have only access to static member of the outer class.
 </details>
+
+<details>
+  <summary>Autoboxing</summary>
+  
+  Automatic conversion made by the Java compiler between the primitive types and their corresponding object wrapper classes.
+</details>
+
+<details>
+  <summary>Method Overriding</summary>
+  
+  Child class redefines the same method as a parent class (cannot limit the access of the method).
+</details>
+
+<details>
+  <summary>Method Overloading</summary>
+  
+  Methods in the same class that have the exact same name, but different parameters.
+</details>
+
+<details>
+  <summary>Constructor</summary>
+  
+  - Default constructor
+  - Support constructor overloading
+  - Copy constructor
+</details>
+
+<details>
+  <summary>Multiple inheritance</summary>
+  
+  Each class is able to extend only on one class but is able to implement more than one interfaces.
+</details>
+
