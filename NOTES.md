@@ -8,8 +8,8 @@
   - Abstraction: develop classes in terms of their own functionality, instead of their implementation details.
   - Encapsulation: objects hide their internal characteristics and behavior.
   - Polymorphism: present the same interface for differing underlying data types.
-    - Compile-time polymorphism (Static binding) – Method overloading
-    - Runtime polymorphism (Dynamic binding) – Method overriding
+    - Compile-time polymorphism (static binding) – Method overloading
+    - Runtime polymorphism (dynamic binding) – Method overriding
   - Inheritance: acquire fields and methods of the base class.
   - Predefined & user-defined types as objects.
   - Message-based.
@@ -104,3 +104,28 @@
   Each class is able to extend only on one class but is able to implement more than one interfaces.
 </details>
 
+<details>
+  <summary>Static method overloading & overriding</summary>
+  
+  - Static methods can be overloaded (static binding), but not by instance methods.
+  - Static methods cannot be overriden (dynamic binding).
+</details>
+
+<details>
+  <summary>Interface</summary>
+  
+  - Interface methods are implicitly abtracts.
+  - Implement a number of interfaces.
+  - Must implement all methods declared in the interface.
+  - Variables declared in an interface are by default `public static final`.
+  - Members of a Java interface are public by default.
+  - An interface is public by default.
+</details>
+
+<details>
+  <summary>Abstract class</summary>
+  
+  - Abstract class can have both abstract and non-abstract methods.
+  - Extend only one abstract class.
+  - **Abstract classes can implement interfaces without even providing the implementation of interface methods.**
+</details>
