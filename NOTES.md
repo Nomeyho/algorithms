@@ -203,3 +203,10 @@
     - Lazy initialization using a nested static class (the "holder").
     - Enum singleton.
 </details>
+
+<details>
+  <summary>Threads</summary>
+  
+  - Extend `Thread` class and override `run` method.
+  - Implement `Runnable` interface (preferred) and create a thread from it `new Thread(runnable)`.
+</details>
