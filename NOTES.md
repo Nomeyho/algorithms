@@ -61,8 +61,10 @@
   <summary>Static</summary>
   
   - Static variable/method can be accessed without instantiation.
-  - Static class
-  - Static block: code executed when loading the class in memory
+  - Static class.
+  - Static block: code executed when loading the class in memory.
+  
+  Note: static fields and blocks are initialized one after another.
 </details>
 
 <details>
@@ -195,5 +197,9 @@
       }
     }
     ```
-  The field needs to be volatile to prevent cache incoherence issues, becaue the *Java memory model* allows the publication of partially initialized objects.
+    The field needs to be volatile to prevent cache incoherence issues, becaue the *Java memory model* allows the publication of partially initialized objects.
+  - Alternative:
+    - Early initialisation.
+    - Lazy initialization using a nested static class (the "holder").
+    - Enum singleton.
 </details>
