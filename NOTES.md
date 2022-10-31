@@ -32,7 +32,8 @@
 <details>
   <summary>Primitive Types</summary>
   
-  Boolean, byte, char, int, float, double, long, short
+  - Boolean, byte, char, int, float, double, long, short.
+  - Java provides wrapper classes for each primitive type.
 </details>
 
 <details>
@@ -140,5 +141,59 @@
 <details>
   <summary>Volatile</summary>
   
+  - Value not cached and always read from main memory.
+  - TODO: https://www.javacodegeeks.com/2018/03/volatile-java-works-example-volatile-keyword-java.html
+</details>
+
+<details>
+  <summary>Transient variable</summary>
   
+  A transcient variable is not serialized.
+</details>
+
+<details>
+  <summary>Local vs. instance variable</summary>
+  
+  - Local variable is declared inside a method or constructor.
+  - Instance variable is declared inside a class.
+  - Local variable must be initialized (compilation error).
+</details>
+
+<details>
+  <summary>Access modifier</summary>
+  
+  - Public: accessible from everywhere.
+  - Protected: accessible within the package and the subclasses in any package.
+  - Package private (default): accessible within the package.
+  - Private: accessible within the same class.
+</details>
+
+<details>
+  <summary>Singleton</summary>
+  
+  - Single instance.
+  - Global access.
+</details>
+
+<details>
+  <summary>Double checked Singleton</summary>
+  
+  - Synchronized `getInstance` method results in poor performance.
+  - Verify if the instance must be created before competing for the lock. 
+    ```
+    public class Singleton {
+      private static volatile Singleton instance;
+      public static Singleton getInstance() {
+          if (instance == null) {
+              synchronized (Singleton.class) {
+                  if (instance == null) {
+                      instance = new DclSingleton();
+                  }
+              }
+          }
+          return instance;
+      }
+    }
+    ```
+  The field needs to be volatile to prevent cache incoherence issues, becaue the *Java memory model* allows the publication of partially initialized objects.
 </details>
