@@ -129,3 +129,16 @@
   - Extend only one abstract class.
   - **Abstract classes can implement interfaces without even providing the implementation of interface methods.**
 </details>
+
+<details>
+  <summary>Pass by value vs. reference</summary>
+  
+  - Pass by value: a copy of the object is passed (Java primitive types).
+  - Pass by reference: a pointer to the object is passed (Java objects).
+</details>
+
+<details>
+  <summary>Volatile</summary>
+  
+  
+</details>
