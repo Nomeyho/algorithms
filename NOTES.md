@@ -205,6 +205,13 @@
 </details>
 
 <details>
+  <summary>Multithreading</summary>
+  
+  - Mutual exclusion over the critical section.
+  - Cooperation of threads
+</details>
+
+<details>
   <summary>Threads</summary>
   
   - Extend `Thread` class and override `run` method.
@@ -248,9 +255,23 @@
 </details>
 
 <details>
-  <summary>Multithreading</summary>
+  <summary>Dealock</summary>
   
-  - Mutual exclusion over the critical section.
-  - Cooperation of threads
+  Situation where two or more threads wait for eachothers forever.
+</details>
+
+<details>
+  <summary>Sleep vs. wait</summary>
+  
+  - Wait:
+    - Instance method of `Object` class.
+    - Release the lock.
+    - Resume when `notify` is called.
+    - Used to sychronise the access to a shared object.
+  - Sleep:
+    - Static method of `Thread`.
+    - Keep lock.
+    - Resume ater the specified amount of time.
+    - Used to pass time.
 </details>
   
