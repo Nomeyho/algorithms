@@ -223,6 +223,34 @@
     - WAITING: waiting indefinitely for another thread.
     - TIMED_WAITING: aiting for another thread for up to a specified waiting time.
     - TERMINATED: has exited.
-  
-  Each object in the Java language has an associated lock, also referred to as a *monitor*.
 </details>
+
+<details>
+  <summary>Synchronized</summary>
+  
+  - method (coarse-grained lock)
+  - block (fine-grained lock)
+</details>
+
+<details>
+  <summary>Locks & monitors</summary>
+  
+  - Lock (mutex):
+    - Threads check the availability of a shared objects through flags attached to the object.
+    - Provides *mutual exclusion*.
+    - Explicit using `Lock` API.
+  - Monitor:
+    - Synchronized keyword (implicit)
+    - Provides *mutual exclusion* using the *monitor lock*.
+    - Provides *cooperation* using the *Wait-set* to notify waiting threads.
+  
+  -> Each Java object has an associated lock, also referred to as a *monitor*. A thread can acquire the lock for an object by using the synchronized keyword.
+</details>
+
+<details>
+  <summary>Multithreading</summary>
+  
+  - Mutual exclusion over the critical section.
+  - Cooperation of threads
+</details>
+  
