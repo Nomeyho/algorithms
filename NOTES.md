@@ -304,3 +304,16 @@
   - `next()`, `hasNext()`, `remove()`.
   - `ListIterator` allows traversing a collection in reverse.
 </details>
+
+<details>
+  <summary>Fail-safe vs. fail-fast</summary>
+  
+  - Fail-fast:
+    - Abort operation as-fast-as-possible.
+    - Use an internal counter called modCount to throw `ConcurrentModificationException`.
+    - `java.util` package.
+  - Fail-safe:
+    - Create a clone of the actual Collection and iterate over it.
+    - Doesn't guarantee to return updated data from the Collection (*weakly consistent*).
+    - `java.util.concurrent` package.
+</details>
