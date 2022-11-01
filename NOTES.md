@@ -296,3 +296,11 @@
   - List: ordered collection.
   - Map: maps keys to values.
 </details>
+
+<details>
+  <summary>Iterator</summary>
+  
+  - Iterate over elements of a collection.
+  - `next()`, `hasNext()`, `remove()`.
+  - `ListIterator` allows traversing a collection in reverse.
+</details>
