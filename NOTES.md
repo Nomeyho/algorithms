@@ -285,3 +285,14 @@
   
 ### Data structures
 ---
+
+[https://facingissuesonitcom.files.wordpress.com/2019/07/java-collection-framework-hierarchy.jpg](https://facingissuesonitcom.files.wordpress.com/2019/07/java-collection-framework-hierarchy.jpg)
+
+<details>
+  <summary>Overview</summary>
+  
+  - Collection: group of objects.
+  - Set: collection without duplicate elements.
+  - List: ordered collection.
+  - Map: maps keys to values.
+</details>
