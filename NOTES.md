@@ -1,7 +1,6 @@
 # Notes
 
-### Java
-
+### OOP
 <details>
   <summary>OOP</summary>
   
@@ -15,6 +14,29 @@
   - Message-based.
   
   Java not 100% OO becquse of primitives types.
+</details>
+
+<details>
+  <summary>Association vs Aggregation vs Composition</summary>
+  
+  - Association: link between two classes communicating with each other.
+  - Aggregation and Composition are special cases of association.
+  - Composition: the child cannot exist independent of the parent.
+</details>
+
+#### Java
+
+<details>
+  <summary>JVM</summary>
+  
+  Process vthat can execute Java bytecode.
+</details>
+
+<details>
+  <summary>JRE vs. JDK</summary>
+  
+  - JRE is a JVM implementation
+  - JDK includes the JRE and development tools.
 </details>
 
 <details>
@@ -34,27 +56,6 @@
   
   - Boolean, byte, char, int, float, double, long, short.
   - Java provides wrapper classes for each primitive type.
-</details>
-
-<details>
-  <summary>Association vs Aggregation vs Composition</summary>
-  
-  - Association: link between two classes communicating with each other.
-  - Aggregation and Composition are special cases of association.
-  - Composition: the child cannot exist independent of the parent.
-</details>
-
-<details>
-  <summary>JVM</summary>
-  
-  Process vthat can execute Java bytecode.
-</details>
-
-<details>
-  <summary>JRE vs. JDK</summary>
-  
-  - JRE is a JVM implementation
-  - JDK includes the JRE and development tools.
 </details>
 
 <details>
@@ -170,6 +171,7 @@
   - Private: accessible within the same class.
 </details>
 
+### Design patterns
 <details>
   <summary>Singleton</summary>
   
@@ -204,6 +206,7 @@
     - Enum singleton.
 </details>
 
+#### Threads
 <details>
   <summary>Multithreading</summary>
   
@@ -275,3 +278,5 @@
     - Used to pass time.
 </details>
   
+### Data structures
+
