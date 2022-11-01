@@ -216,4 +216,13 @@
     - `run()` contain the business logic.
     - `start()` creates a new thread and call the `run()` method.
     - `sleep()`
+  - States:
+    - NEW: created but not yet started.
+    - RUNNABLE: executing in the JVM.
+    - BLOCKED: waiting for a monitor lock.
+    - WAITING: waiting indefinitely for another thread.
+    - TIMED_WAITING: aiting for another thread for up to a specified waiting time.
+    - TERMINATED: has exited.
+  
+  Each object in the Java language has an associated lock, also referred to as a *monitor*.
 </details>
