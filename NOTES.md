@@ -209,4 +209,11 @@
   
   - Extend `Thread` class and override `run` method.
   - Implement `Runnable` interface (preferred) and create a thread from it `new Thread(runnable)`.
+  - Methods:
+    - id, name, priority, state
+    - `interrupt()`
+    - `join()` waits for the thread to die.
+    - `run()` contain the business logic.
+    - `start()` creates a new thread and call the `run()` method.
+    - `sleep()`
 </details>
