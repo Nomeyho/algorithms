@@ -317,3 +317,11 @@
     - Doesn't guarantee to return updated data from the Collection (*weakly consistent*).
     - `java.util.concurrent` package.
 </details>
+
+<details>
+  <summary>Hashmap</summary>
+  
+  - Store key-value pairs
+  - Rely on the hash function implemented by `hashCode()` to find the index where to store the key-pair.
+  - Replace value.
+</details>
