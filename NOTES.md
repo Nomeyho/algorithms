@@ -324,4 +324,23 @@
   - Store key-value pairs
   - Rely on the hash function implemented by `hashCode()` to find the index where to store the key-pair.
   - Replace value.
+  - Allow `NULL` keys and values.
+  - Not synchronized.
+  - Fail-fast iterator.
+  
+  Note: Hashtable is a legacy class.
+</details>
+
+<details>
+  <summary>Array</summary>
+  
+  - Can contains primitive objects (autoboxing).
+  - Fixed sixe.
+</details>
+
+<details>
+  <summary>ArrayList</summary>
+  
+  - Can only contain objects.
+  - Dynamic size.
 </details>
