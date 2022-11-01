@@ -24,7 +24,8 @@
   - Composition: the child cannot exist independent of the parent.
 </details>
 
-#### Java
+### Java
+---
 
 <details>
   <summary>JVM</summary>
@@ -172,6 +173,8 @@
 </details>
 
 ### Design patterns
+---
+
 <details>
   <summary>Singleton</summary>
   
@@ -206,7 +209,9 @@
     - Enum singleton.
 </details>
 
-#### Threads
+### Threads
+---
+
 <details>
   <summary>Multithreading</summary>
   
@@ -279,4 +284,4 @@
 </details>
   
 ### Data structures
-
+---
