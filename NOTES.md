@@ -327,6 +327,7 @@
   - Allow `NULL` keys and values.
   - Not synchronized.
   - Fail-fast iterator.
+  - Best practice to use immutable classes as keys.
   
   Note: Hashtable is a legacy class.
 </details>
@@ -336,6 +337,7 @@
   
   - Can contains primitive objects (autoboxing).
   - Fixed sixe.
+  - Random access.
 </details>
 
 <details>
@@ -343,4 +345,49 @@
   
   - Can only contain objects.
   - Dynamic size.
+  - Random access.
+</details>
+
+<details>
+  <summary>LinkedList</summary>
+  
+  - Add/remove in O(1).
+  - No resize.
+  - More memory because of pointers to next/previous element.
+</details>
+
+<details>
+  <summary>Comparable vs. Comparator</summary>
+  
+  - `compareTo`: impose order between two objects (-1, 0, +1).
+  - `equals': return true if the argument is
+    - is also a comparator
+    - imposes the same ordering.
+</details>
+
+<details>
+  <summary>BigO</summary>
+  
+  - Describe how an algorithm scales in the *worst case* scenario when the size of the input increases.
+  - Time complexity or memory consumption.
+</details>
+
+<details>
+  <summary>Orderred array</summary>
+  
+  - Search O(log n).
+  - Insertion in O(n).
+</details>
+
+<details>
+  <summary>HqshSet</summary>
+ 
+  - Add, remove and contains in O(1).
+</details>
+
+<details>
+  <summary>TreeSet</summary>
+  
+  - Sorted elements.
+  - Add, remove and contains in O(log n).
 </details>
