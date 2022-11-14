@@ -391,3 +391,45 @@
   - Sorted elements.
   - Add, remove and contains in O(log n).
 </details>
+
+### Garbage collection
+---
+<details>
+  <summary>Garbage collection</summary>
+  
+  **Automatic memory management**: identify and discard objects that are no longer needed by the application, in order to free resources.
+</details>
+
+<details>
+  <summary>`System.gc()` and `Runtime.gc()`</summary>
+  
+  Hints to trigger the garbage collector (no guarantee).
+</details>
+
+<details>
+  <summary>Finalize</summary>
+  
+  - `finalize()` called right before freeing the object's memory.
+  - Where resources held by the object must be released.
+</details>
+
+<details>
+  <summary>Heap</summary>
+  
+  - Where memory for all class instances and arrays is allocated.
+  - *Live objects* acccessible by the application.
+  - *Dead objects* not acccessible by the application, but not yet garbage collected.
+</details>
+
+<details>
+  <summary>Serial vs. throughput GC</summary>
+  
+  - *Serial GC* small heap memory (100MB).
+  - *Throughput GC* medium and large datasets.
+</details>
+
+<details>
+  <summary>Elligibility</summary>
+  
+  An object is subject to garbage collection when it becomes unreachable.
+</details>
